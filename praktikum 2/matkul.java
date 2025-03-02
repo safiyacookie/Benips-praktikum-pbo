@@ -1,3 +1,8 @@
+/*Nama File : matkul.java
+/*Deskripsi : berisi atribut dan method dalam class matkul
+/*Pembuat : Shafiyah
+/*Tanggal : 2 Maret 2025
+*/
 public class matkul{
     private String idmatkul;
     private String nama;
