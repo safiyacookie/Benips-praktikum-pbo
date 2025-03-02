@@ -1,3 +1,8 @@
+/*Nama File : dosen.java
+/*Deskripsi : berisi atribut dan method dalam class dosen
+/*Pembuat : Shafiyah
+/*Tanggal : 2 Maret 2025
+*/
 public class Dosen {
     private String nip;
     private String nama;
