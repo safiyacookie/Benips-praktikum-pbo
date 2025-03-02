@@ -1,3 +1,8 @@
+/*Nama File : mahasiswa.java
+/*Deskripsi : berisi atribut dan method dalam class mahasiswa
+/*Pembuat : Shafiyah
+/*Tanggal : 2 Maret 2025
+*/
 import java.util.ArrayList;
 public class mahasiswa {
     private String nim;
