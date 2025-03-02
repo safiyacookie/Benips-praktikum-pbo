@@ -22,6 +22,9 @@ public class mahasiswa {
         this.nim = nim;
         this.nama = nama;
         this.prodi = prodi;
+        this.listmatkul = new ArrayList<>(); 
+        this.dosenwali = new Dosen();
+        this.kendaraan = new kendaraan();
     }
     
     //selector (getter)
@@ -70,5 +73,24 @@ public class mahasiswa {
         return sum;
     }
     
+    public int getjumlahmatkul(){
+        return listmatkul.size();
+    }
     
+    public void printmhs(){
+        System.out.println("NIM: " + nim);
+        System.out.println("Nama: " + nama);
+        System.out.println("Prodi: " + prodi);
+    }
+    
+    public void printdetailmhs(){
+        printmhs();
+        System.out.println("Dosen wali: " + dosenwali.getnama());
+        System.out.println("Kendaraan: " + kendaraan.getjenis());
+        System.out.println("Mata kuliah yang diambil: ");
+        for(matkul mk : listmatkul) {
+            System.out.println("- " + mk.getnama() + " (" + mk.getsks() + " SKS)");
+        }
+        System.out.println("Total SKS: " + getjmlsks());
+    }
 }
