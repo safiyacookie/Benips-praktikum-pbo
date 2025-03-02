@@ -1,3 +1,8 @@
+/*Nama File : kendaraan.java
+/*Deskripsi : berisi atribut dan method dalam class kendaraan
+/*Pembuat : Shafiyah
+/*Tanggal : 2 Maret 2025
+*/
 public class kendaraan{
     private String noplat;
     private String jenis;
