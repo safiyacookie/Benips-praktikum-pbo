@@ -1,3 +1,8 @@
+/*Nama File : main.java
+/*Deskripsi : berisi implementasi atribut dan method 
+/*Pembuat : Shafiyah
+/*Tanggal : 2 Maret 2025
+*/
 public class main{
     public static void main (String[] args){
         Dosen D1 = new Dosen ("123", "Andi", "Informatika");
