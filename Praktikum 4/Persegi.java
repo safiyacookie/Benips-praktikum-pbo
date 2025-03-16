@@ -1,3 +1,9 @@
+/*
+File : Persegi.java
+Deskripsi : Program yang berisi class Persegi
+Pembuat : Shafiyah
+Tanggal : 16 Maret 2025
+*/
 public class Persegi extends BangunDate {
     private double sisi;
     
