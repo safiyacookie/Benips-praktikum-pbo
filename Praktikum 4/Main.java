@@ -1,3 +1,9 @@
+/*
+File : Main.java
+Deskripsi : Program yang mengimplementasi class Tendik, dosentamu, dosentetap, dosen, dan pegawai
+Pembuat : Shafiyah
+Tanggal : 16 Maret 2025
+*/
 import java.util.Date;
 
 public class Main {
