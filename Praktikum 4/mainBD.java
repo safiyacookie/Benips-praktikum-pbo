@@ -29,5 +29,10 @@ public class mainBD{
     }
 }
 
-    }
-}
+/*
+1. Menambahkan final pada kelas BangunDatar
+-> Maka kelas Persegi dan Lingkaran yang sebelumnya merupakan subclass dari BangunDatar akan mengalami error, karena kelas final tidak dapat diwarisi (inherited).
+2. Menambahkan final pada method printInfo() dalam BangunDatar
+-> Method printInfo() di kelas Persegi dan Lingkaran akan error jika mencoba override.
+-> final pada method berarti method tidak bisa diubah (di-override) oleh subclass.
+*/
