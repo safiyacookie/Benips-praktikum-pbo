@@ -2,7 +2,7 @@
 File : Dosen.java
 Deskripsi : Program yang berisi class Dosen
 Pembuat : Shafiyah
-Tanggal : 16 Maret 2025
+Tanggal : 19 Maret 2025
 */
 import java.util.Date;
 public class Dosen extends Pegawai {
