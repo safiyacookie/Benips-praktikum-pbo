@@ -2,7 +2,7 @@
 File : Pegawai.java
 Deskripsi : Program yang berisi class Pegawai
 Pembuat : Shafiyah
-Tanggal : 16 Maret 2025
+Tanggal : 19 Maret 2025
 */
 
 import java.util.Date;
