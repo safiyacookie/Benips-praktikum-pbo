@@ -4,7 +4,7 @@ Deskripsi : Program yang berisi class Dosen
 Pembuat : Shafiyah
 Tanggal : 16 Maret 2025
 */
-
+import java.util.Date;
 public class Dosen extends Pegawai {
     protected String Fakultas;
 
@@ -19,4 +19,3 @@ public class Dosen extends Pegawai {
         System.out.println("Fakultas: " + Fakultas);
     }
 }
-
