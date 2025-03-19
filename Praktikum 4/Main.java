@@ -4,25 +4,30 @@ Deskripsi : Program yang mengimplementasi class Tendik, dosentamu, dosentetap, d
 Pembuat : Shafiyah
 Tanggal : 16 Maret 2025
 */
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        // Membuat objek DosenTetap
-        DosenTetap dosenTetap = new DosenTetap("12345", "Dr. Andi", new Date(80, 5, 10), new Date(110, 7, 15), 8000000, "Teknik", "101010");
-        System.out.println("=== Dosen Tetap ===");
+        DosenTetap dosenTetap = new DosenTetap("78647324", "9545647548", "Andi", 
+                LocalDate.of(1990, 5, 5), LocalDate.of(2015, 1, 1), 5000000, 
+                "Fakultas Sains dan Matematika", LocalDate.of(2055, 6, 1));
+
+        DosenTamu dosenTamu = new DosenTamu("12345678", "9876543210", "Budi",
+                LocalDate.of(1990, 3, 15), LocalDate.of(2020, 7, 1), 4500000, 
+                "Fakultas Sains dan Matematika", LocalDate.of(2025, 12, 31));
+
+        Tendik tendik = new Tendik("1023456789", "Dewi", LocalDate.of(2000, 5, 5),
+                LocalDate.of(2015, 7, 1), 5000000, "Akademik");
+
+        // Cetak informasi tanpa duplikasi header
         dosenTetap.printInfo();
         System.out.println();
-
-        // Membuat objek DosenTamu
-        DosenTamu dosenTamu = new DosenTamu("67890", "Dr. Budi", new Date(85, 3, 20), new Date(115, 9, 1), 6000000, "Ekonomi", "202020", new Date(125, 11, 31));
-        System.out.println("=== Dosen Tamu ===");
         dosenTamu.printInfo();
         System.out.println();
-
-        // Membuat objek Tendik
-        Tendik tendik = new Tendik("11223", "Siti", new Date(90, 7, 25), new Date(120, 4, 10), 5000000, "Administrasi");
-        System.out.println("=== Tendik ===");
         tendik.printInfo();
     }
 }
+
+
+
+
