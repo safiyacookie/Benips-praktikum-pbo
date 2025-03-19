@@ -2,8 +2,9 @@
 File : Tendik.java
 Deskripsi : Program yang berisi class Tendik
 Pembuat : Shafiyah
-Tanggal : 16 Maret 2025
+Tanggal : 19 Maret 2025
 */
+import java.util.Date;
 
 public class Tendik extends Pegawai {
     private String Bidang;
